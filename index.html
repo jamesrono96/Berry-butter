@@ -1,75 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Berry Butter Cakes</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Berry & Butter Cakes – Melts in your tongue!</title>
+  <meta name="description" content="Berry & Butter Cakes — Kibomet, Namawanga. Fresh custom cakes, cupcakes and treats. Order via phone or WhatsApp.">
+  <meta name="theme-color" content="#a855f7">
+  <meta property="og:title" content="Berry & Butter Cakes">
+  <meta property="og:description" content="Melts in your tongue! Order delicious cakes in Kibomet – Namawanga.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/flyer.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&family=Pacifico&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <div class="logo">Berry Butter Cakes</div>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <header class="site-header">
+    <a class="logo" href="#home">Berry <span>&</span> Butter</a>
+    <nav class="nav">
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="cta">Order</a>
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero" id="home">
-    <h1>Freshly Baked Cakes</h1>
-    <p>Delicious treats for every occasion, made with love.</p>
-    <a href="#menu" class="btn">Explore Menu</a>
+  <main id="home" class="hero">
+    <div class="hero-inner">
+      <h1>Berry <span>&</span> Butter Cakes</h1>
+      <p class="tagline">Melts in your tongue!</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#menu">See Menu</a>
+        <a class="btn outline" href="https://wa.me/254706098555?text=Hi%20Berry%20%26%20Butter!%20I'd%20like%20to%20order%20a%20cake." target="_blank" rel="noopener">WhatsApp Us</a>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <div class="badge">
+        <div class="badge-title">Fresh • Custom • Tasty</div>
+        <div class="badge-sub">Kibomet – Namawanga</div>
+      </div>
+    </div>
+  </main>
+
+  <section id="menu" class="section">
+    <div class="container">
+      <h2 class="section-title">Menu</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="price">Ksh. 2,500/-</div>
+          <ul class="list">
+            <li>Red Velvet</li>
+            <li>White Forest</li>
+            <li>Black Forest</li>
+            <li>Fruit Cake</li>
+            <li>Oreo</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="price">Ksh. 2,000/-</div>
+          <ul class="list">
+            <li>Vanilla</li>
+            <li>Orange</li>
+            <li>Lemon</li>
+            <li>Strawberry</li>
+            <li>Pineapple</li>
+            <li>Coconut</li>
+            <li>Caramel</li>
+            <li>Passion</li>
+            <li>Mint</li>
+            <li>Bubble Gum</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="price">Ksh. 2,100/-</div>
+          <ul class="list">
+            <li>Chocolate</li>
+            <li>Chocolate Mint</li>
+            <li>Chocolate Orange</li>
+            <li>Pina Colada</li>
+            <li>Blue Berry</li>
+            <li>Carrot Cake</li>
+            <li>Lemon Poppy Seed</li>
+            <li>Orange Poppy Seed</li>
+          </ul>
+        </article>
+      </div>
+      <p class="note">Prices are for standard 1kg cakes. Custom designs and sizes available—ask us on WhatsApp.</p>
+    </div>
   </section>
 
-  <!-- Menu Section -->
-  <section class="menu" id="menu">
-    <h2>Our Cakes</h2>
-    <div class="grid">
-      <div class="card">
-        <img src="assets/cake1.jpg" alt="Chocolate Cake">
-        <h3>Chocolate Delight</h3>
-        <p>Rich and moist chocolate layered cake.</p>
-      </div>
-      <div class="card">
-        <img src="assets/cake2.jpg" alt="Vanilla Cake">
-        <h3>Vanilla Dream</h3>
-        <p>Soft vanilla sponge with creamy frosting.</p>
-      </div>
-      <div class="card">
-        <img src="assets/cake3.jpg" alt="Strawberry Cake">
-        <h3>Strawberry Bliss</h3>
-        <p>Fresh strawberries with whipped cream layers.</p>
+  <section id="gallery" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Gallery</h2>
+      <div class="grid">
+        <figure class="photo"><img src="assets/flyer.jpg" alt="Berry & Butter Cakes flyer"></figure>
+        <figure class="photo"><img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=1200&auto=format&fit=crop" alt="Chocolate cake"></figure>
+        <figure class="photo"><img src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?q=80&w=1200&auto=format&fit=crop" alt="Cupcakes"></figure>
+        <figure class="photo"><img src="https://images.unsplash.com/photo-1541976076758-347942db1970?q=80&w=1200&auto=format&fit=crop" alt="Birthday cake"></figure>
       </div>
     </div>
   </section>
 
-  <!-- About Section -->
-  <section class="about" id="about">
-    <h2>About Us</h2>
-    <p>
-      At Berry Butter Cakes, we believe in baking happiness. 
-      Our cakes are handmade daily with the finest ingredients 
-      to ensure every bite is a delight.
-    </p>
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about">
+        <div class="about-text">
+          <h2 class="section-title">About Us</h2>
+          <p>We’re a home bakery crafting fresh, fluffy cakes that melt in your tongue. From birthdays to weddings and everything in between, we bake with love and top-quality ingredients.</p>
+          <ul class="ticks">
+            <li>Same-day bakes (when available)</li>
+            <li>Custom designs & messages</li>
+            <li>Free pick-up in Kibomet – Namawanga</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <div class="contact-card">
+            <h3>Order Direct</h3>
+            <a class="btn full" href="tel:+254706098555">Call: 0706 098 555</a>
+            <a class="btn full" href="mailto:berrybutter998@gmail.com?subject=Cake%20Order">Email: berrybutter998@gmail.com</a>
+            <a class="btn full" target="_blank" rel="noopener" href="https://goo.gl/maps/"><span>Find us: Kibomet – Namawanga</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- Contact Section -->
-  <section class="contact" id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:berrybuttercakes@gmail.com">berrybuttercakes@gmail.com</a></p>
-    <p>Phone: +254 700 000 000</p>
-    <p>Location: Nairobi, Kenya</p>
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Contact & Orders</h2>
+      <form class="form" method="GET" action="mailto:berrybutter998@gmail.com" enctype="text/plain">
+        <div class="form-row">
+          <label>Name
+            <input type="text" name="name" required>
+          </label>
+          <label>Phone
+            <input type="tel" name="phone" required>
+          </label>
+        </div>
+        <label>Occasion / Notes
+          <textarea name="message" rows="4" placeholder="Birthday 1kg chocolate cake, writing ‘Happy Birthday’..." required></textarea>
+        </label>
+        <button class="btn primary" type="submit">Send Order Request</button>
+      </form>
+      <div class="contact-inline">
+        <a class="chip" href="https://wa.me/254706098555" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="chip" href="tel:+254706098555">Call</a>
+        <a class="chip" href="mailto:berrybutter998@gmail.com">Email</a>
+      </div>
+    </div>
   </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Berry Butter Cakes | All Rights Reserved</p>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="y"></span> Berry & Butter Cakes</span>
+      <nav class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </footer>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const href = a.getAttribute('href');
+        if (href.length > 1) {
+          e.preventDefault();
+          document.querySelector(href).scrollIntoView({behavior: 'smooth'});
+        }
+      });
+    });
+    // Year
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
